@@ -1,0 +1,31 @@
+   @font-face{
+   	font-family:myfirstFont;
+   	src:url('../font-family/china.ttf');
+   }
+   body{
+	    	background-color: #888888;
+	    	margin-left: 20%;
+	    	margin-right: 20%;
+	    	border:2px solid black;
+	    	padding:10px 10px 10px 10px;
+	    	font-family: sans-serif; 
+	    }
+	    p{
+	    	color: maroon;
+	    }
+	    h1,h2{
+	    	font-family: myfirstFont;
+	    	color:white;
+	    	border-bottom: 2px solid black ;
+	    	font-size: 200%;
+	    }
+	    h1{
+	    	border-bottom: 5px double;
+	    	color:#121212;
+	    }
+	    a.tolol{
+	    	/*font-family:Fantasy;*/
+	    	font-family:myfirstFont;
+	    	font-size:200%;
+	    	color:blue;
+	    }   }
