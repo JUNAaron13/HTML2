@@ -12,6 +12,7 @@
 	    	font-size: medium;
 	    	font-weight: bold;
 	    	line-height: 2.0em;
+	    	width:1100px;
 	    }
 	    p{
 	    	color: maroon;
@@ -45,7 +46,8 @@
 	    	font-family: sans-serif;
 	    	text-decoration: underline-overline;
 	    }
-      .intro1{
+      #intro1{
+      	width:800px;
         font-size: 1.5em;
       	border-color: black;
       	border-width: 2px;
@@ -66,6 +68,7 @@
       
       	border-radius: 15px;
       	border-color: #888888;
+      	float:right;
       }                         
       .im1{
         border-radius: 15px;
@@ -79,4 +82,48 @@
       	margin-left: 15px;
       	margin-top:15px;
       	margin-bottom: 25px;
+      }
+      #price1{
+      	text-decoration: line-through;
+    
+      }
+      #show{
+      	border-width: thin;
+      	border-style: solid;
+      	border-color: red;
+      	width: 800px;  /*width指定内容的宽度*/
+      	padding-right: 20px;
+      	padding-bottom: 20px;
+      	padding-left: 20px;
+
+      	margin-right:110px;
+      	margin-left: 110px;
+
+      	text-align:  center;
+
+      	background-image: url(../images/blue2.jpg);
+      	background-repeat: repeat;
+      
+
+      }
+      #show h2{
+      	color:black;
+      }
+      a:link{
+      	color: green;
+      }
+      a:visited{
+      	color:red;
+      }
+      a:hover{
+          color:yellow;
+      }
+      #list{
+      	width: 200px;
+      }
+      #article{
+      	width:200px;
+      	float:  right;
+      	border: 2px solid black;
+      	
       }
